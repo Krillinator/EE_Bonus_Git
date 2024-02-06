@@ -2,17 +2,14 @@ package com.krillinator.demo;
 
 public class Student {
 
-    private String name;
+    private String username;
 
-    public Student(String name) {
-        this.name = name;
+    public Student(String username) {
+        this.username = username;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
